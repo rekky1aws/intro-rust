@@ -1,6 +1,6 @@
 # Dossiers générés par Cargo
-target/
-debug/
+*/target/
+*/debug/
 
 # Enlever si on produit un executable, le laisser si on fait une librairie.
 Cargo.lock
