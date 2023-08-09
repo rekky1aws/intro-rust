@@ -1,1 +1,12 @@
-/target
+# Dossiers générés par Cargo
+target/
+debug/
+
+# Enlever si on produit un executable, le laisser si on fait une librairie.
+Cargo.lock
+
+# Fichiers de recouvrement
+**/*.rs.bk
+
+# Fichiers contenant des informations de déboguage
+*.pdb
