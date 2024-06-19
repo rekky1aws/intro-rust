@@ -1,4 +1,4 @@
-# Dossiers générés par Cargo
+# Dossiers générés par Cargo contenant les fichiers compilés et executables.
 */target/
 */debug/
 
