@@ -3,7 +3,7 @@
 */debug/
 
 # Enlever si on produit un executable, le laisser si on fait une librairie.
-Cargo.lock
+*/Cargo.lock
 
 # Fichiers de recouvrement
 **/*.rs.bk
