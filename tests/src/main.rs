@@ -19,10 +19,12 @@ fn main() {
 
     let number = 3;
 
-    if number < 5 {
-        println!("condition was true");
+    if number < 10 {
+        println!("number is below 10");
+    } else if number < 5 {
+        println!("number is below 5");
     } else {
-        println!("condition was false");
+        println!("number is above 10");
     }
 
 }
