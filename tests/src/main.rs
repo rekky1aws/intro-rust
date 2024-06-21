@@ -16,4 +16,13 @@ fn main() {
 
     let arr: [u8; 5] = [0; 5];
     println!("{:?}", arr);
+
+    let number = 3;
+
+    if number < 5 {
+        println!("condition was true");
+    } else {
+        println!("condition was false");
+    }
+
 }
