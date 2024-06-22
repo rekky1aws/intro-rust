@@ -1,4 +1,5 @@
 fn main() {
+    // Variables
     let mut x = 5;
     println!("The value of x is: {x}");
 
@@ -6,6 +7,7 @@ fn main() {
     println!("The value of x is: {x}");
 
 
+    // Unisigned int looping
     let mut y: u8 = 254;
     let z: Option<u8> = y.checked_add(1);
 
@@ -14,9 +16,12 @@ fn main() {
     println!("{:?}, {:?}", y, z);
 
 
+    // Arrays
     let arr: [u8; 5] = [0; 5];
     println!("{:?}", arr);
 
+
+    // Conditions
     let number = 3;
 
     if number < 10 {
@@ -27,6 +32,8 @@ fn main() {
         println!("number is above 10");
     }
 
+
+    // If statement in variable definition
     let condition = true;
     let number = if condition { 5 } else { 6 };
 
