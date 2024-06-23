@@ -95,4 +95,17 @@ fn main() {
     }
 
     println!("LIFTOFF !!");
+
+
+    // Looping through a collection
+    let a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+
+    while index < 5 {
+        println!("the value is: {}", a[index]);
+
+        index += 1;
+    }
+    // This is prone to errors, i.e. if we shorten the array without changing max for index
+    // Use next instead
 }
