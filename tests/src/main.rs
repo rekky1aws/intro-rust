@@ -116,4 +116,11 @@ fn main() {
     for element in a {
         println!("the value is: {}", element);
     }
+
+
+    // For loops with the use of a Range
+    for number in (1..4).rev() { // (1..4) is the range, .rev() is used to reverse the order
+        println!("{number} !");
+    }
+    println!("LIFTOFF !!");
 }
