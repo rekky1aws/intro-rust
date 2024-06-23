@@ -40,8 +40,25 @@ fn main() {
     println!("The value of the number is : {number}");
 
 
-    // Looping
+    // Infintie loop
+    /*
     loop {
         println!("again !");
     }
+    */
+
+
+    // Looping
+    let mut counter = 0;
+
+    let result = loop {
+        counter += 1;
+
+        if counter == 10 {
+            break counter * 2;
+        }
+    };
+
+    println!("The result is {result}");
+
 }
