@@ -108,4 +108,12 @@ fn main() {
     }
     // This is prone to errors, i.e. if we shorten the array without changing max for index
     // Use next instead
+
+
+    // For loops in collections
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+        println!("the value is: {}", element);
+    }
 }
